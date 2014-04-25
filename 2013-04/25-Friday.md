@@ -1,5 +1,5 @@
 # Update git on ubuntu from command line
-`[ `sudo apt-get install python-software-properties]` <br>
+`sudo apt-get install python-software-properties` <br>
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
