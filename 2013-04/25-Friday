@@ -24,4 +24,5 @@ git config --global core.editor vim
 git config --list 
 
 
-#query
+#push changes to git
+push add origin
