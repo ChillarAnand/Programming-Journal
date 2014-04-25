@@ -26,3 +26,12 @@ git config --list
 
 #push changes to git
 push add origin
+
+#find the size of git repository
+git bundle create tmp.bundle --all
+du -sh tmp.bundle
+#to count hooks, stashes, config, rerere cache, backups 
+git gc
+du -sh .git/
+
+
