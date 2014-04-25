@@ -1,4 +1,4 @@
 learning
 ========
 
-All the programming stuff
+My Programming Journal!
