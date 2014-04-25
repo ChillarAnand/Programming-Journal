@@ -1,13 +1,13 @@
-### Update git on ubuntu from command line###
-    sudo apt-get install python-software-properties <br>
-    sudo add-apt-repository ppa:git-core/ppa <br>
-    sudo apt-get update <br>
-    sudo apt-get install git <br> ` 
+### Update git on ubuntu from command line ###
+    sudo apt-get install python-software-properties 
+    sudo add-apt-repository ppa:git-core/ppa 
+    sudo apt-get update 
+    sudo apt-get install git  
 
 
-# git User configuration
-git config --global user.name "username"
-git config --global user.email "your.email@gmail.com" 
+## git User configuration ##
+    git config --global user.name "username"
+    git config --global user.email "your.email@gmail.com" 
  
 
 #git - color highlighting for console 
