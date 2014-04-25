@@ -37,3 +37,6 @@ du -sh .git/
 # store git credentials
 git config credential.helper store
 git push http://example.com/repo.git
+
+# where is git installed
+which git
