@@ -7,12 +7,12 @@
     sudo apt-get install git  
 
 
-## git User configuration ##
+### git User configuration ##
     git config --global user.name "username"
     git config --global user.email "your.email@gmail.com" 
  
 
-###git - color highlighting for console 
+### git - color highlighting for console 
     git config --global color.ui true
     git config --global color.status auto
     git config --global color.branch auto 
@@ -29,6 +29,7 @@
 ### push changes to git
     push add origin
 
+
 ### find the size of git repository
     git bundle create tmp.bundle --all
     du -sh tmp.bundle
@@ -36,9 +37,11 @@
     git gc
     du -sh .git/
 
+
 ### store git credentials
     git config credential.helper store
     git push http://example.com/repo.git
+
 
 ### where is git installed
     which git
