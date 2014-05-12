@@ -7,6 +7,9 @@ rootDir = 'test/'
 for dirName, subdirList, fileList in os.walk(rootDir):
 #    print dirName, subdirList, fileList
 
+    os.system('pwd')
+    print dirName
+
     for fname in fileList:
 
         if '.pdf' in fname:
@@ -19,3 +22,4 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             print command
             #os.system(command)
             
+    os.system('cd ..')
