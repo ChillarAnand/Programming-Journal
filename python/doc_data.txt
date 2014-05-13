@@ -1,0 +1,15 @@
+InfoKey: Creator
+InfoValue: PScript5.dll Version 5.2
+InfoKey: Title
+InfoValue: Microsoft Word - Mahaprasthanam.doc
+InfoKey: Author
+InfoValue: mallepoolu
+InfoKey: Producer
+InfoValue: GPL Ghostscript 8.15
+InfoKey: ModDate
+InfoValue: D:20080719201158
+InfoKey: CreationDate
+InfoValue: D:20080719201158
+PdfID0: 3f6c174079b33157c717b557615d8f8
+PdfID1: 3f6c174079b33157c717b557615d8f8
+NumberOfPages: 54
