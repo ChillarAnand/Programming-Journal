@@ -13,3 +13,29 @@ However, to stop the programm, there is no app layout or anything. It has to be 
 Open terminal and type 
 
     gnome-system-monitor
+
+
+
+### JOBS & PRIORITY
+
+List all jobs running in the current terminal
+    jobs
+
+Display all linux tasks
+    top
+
+Change priority of jobs
+    renice -20(priority) 7448(jobid)
+
+
+### IDENTIFY BOTTLENECK 
+    mpstat
+    sar
+    vmstat -s
+    vmstat -m | head -5
+    vmstat -f
+    vmstat
+    iotop
+    htop
+
+

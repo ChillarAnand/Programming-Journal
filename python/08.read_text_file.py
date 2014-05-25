@@ -1,4 +1,3 @@
 
-import data
-
-data.contents = open(links.txt)
+contents = open('01.hello.py')
+print contents
