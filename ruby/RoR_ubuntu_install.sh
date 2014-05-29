@@ -1,4 +1,4 @@
-#! /usr/bash
+#! /bin/bash
 # bash script to install Ruby on Rails on Ubuntu 12.04 LTS
 
 
