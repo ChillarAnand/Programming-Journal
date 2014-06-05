@@ -1,0 +1,76 @@
+2014-06-02T11:01:09.998710693 0.069452s info: Creating directory /home/anand/git/learning/python/rethinkdb_data
+2014-06-02T11:01:09.998943824 0.069685s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/anand/git/learning/python/rethinkdb_data' did not already exist.)
+2014-06-02T11:01:09.998985519 0.069726s info: Running rethinkdb 1.12.5-0ubuntu1~precise (GCC 4.6.3)...
+2014-06-02T11:01:10.001023208 0.071765s info: Running on Linux 3.8.0-31-generic x86_64
+2014-06-02T11:01:10.001095215 0.071836s info: Using cache size of 100 MB
+2014-06-02T11:01:10.001239437 0.071980s warn: Cache size does not leave much memory for server and query overhead (available memory: 608 MB).
+2014-06-02T11:01:10.001269189 0.072010s warn: Cache size is very low and may impact performance.
+2014-06-02T11:01:10.001297824 0.072038s info: Loading data from directory /home/anand/git/learning/python/rethinkdb_data
+2014-06-02T11:01:10.620668765 0.691410s info: Listening for intracluster connections on port 29015
+2014-06-02T11:01:10.621752003 0.692493s info: Listening for client driver connections on port 28015
+2014-06-02T11:01:10.621857324 0.692598s info: Listening for administrative HTTP connections on port 8080
+2014-06-02T11:01:10.621865775 0.692607s info: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2014-06-02T11:01:10.621868219 0.692609s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-06-02T11:01:10.621874715 0.692616s info: by running rethinkdb with the `--bind all` command line option.
+2014-06-02T11:01:10.621908029 0.692649s info: Server ready
+2014-06-02T11:04:30.222026736 200.292768s info: Server got SIGINT from pid 0, uid 0; shutting down...
+2014-06-02T11:04:30.222181016 200.292922s info: Shutting down client connections...
+2014-06-02T11:04:30.222263079 200.293004s info: All client connections closed.
+2014-06-02T11:04:30.222267828 200.293009s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-06-02T11:04:30.224084330 200.294825s info: Storage engine shut down.
+2014-06-02T11:04:35.097056794 0.057203s info: Running rethinkdb 1.12.5-0ubuntu1~precise (GCC 4.6.3)...
+2014-06-02T11:04:35.099004528 0.059151s info: Running on Linux 3.8.0-31-generic x86_64
+2014-06-02T11:04:35.099073950 0.059219s info: Using cache size of 100 MB
+2014-06-02T11:04:35.099221106 0.059367s warn: Cache size does not leave much memory for server and query overhead (available memory: 585 MB).
+2014-06-02T11:04:35.099252674 0.059398s warn: Cache size is very low and may impact performance.
+2014-06-02T11:04:35.099289131 0.059435s info: Loading data from directory /home/anand/git/learning/python/rethinkdb_data
+2014-06-02T11:04:35.183293319 0.143439s info: Listening for intracluster connections on port 29015
+2014-06-02T11:04:35.184635808 0.144782s info: Listening for client driver connections on port 28015
+2014-06-02T11:04:35.184790577 0.144937s info: Listening for administrative HTTP connections on port 8080
+2014-06-02T11:04:35.184794208 0.144940s info: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2014-06-02T11:04:35.184822424 0.144968s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-06-02T11:04:35.184824729 0.144970s info: by running rethinkdb with the `--bind all` command line option.
+2014-06-02T11:04:35.184829408 0.144975s info: Server ready
+2014-06-02T11:10:47.995076238 372.955222s info: Applying data {"rdb_namespaces":{"a31646f9-0a43-431a-a870-0064be38634f":null}}
+2014-06-02T11:10:56.274473709 381.234620s info: Server got SIGINT from pid 0, uid 0; shutting down...
+2014-06-02T11:10:56.274717245 381.234863s info: Shutting down client connections...
+2014-06-02T11:10:56.274846941 381.234993s info: All client connections closed.
+2014-06-02T11:10:56.274888147 381.235034s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-06-02T11:10:56.274892128 381.235038s info: Storage engine shut down.
+2014-06-02T11:11:11.134353237 0.055362s info: Running rethinkdb 1.12.5-0ubuntu1~precise (GCC 4.6.3)...
+2014-06-02T11:11:11.136309352 0.057319s info: Running on Linux 3.8.0-31-generic x86_64
+2014-06-02T11:11:11.136381847 0.057391s info: Using cache size of 100 MB
+2014-06-02T11:11:11.136530190 0.057539s warn: Cache size does not leave much memory for server and query overhead (available memory: 585 MB).
+2014-06-02T11:11:11.136562736 0.057572s warn: Cache size is very low and may impact performance.
+2014-06-02T11:11:11.136598146 0.057607s info: Loading data from directory /home/anand/git/learning/python/rethinkdb_data
+2014-06-02T11:11:11.244951240 0.165960s info: Listening for intracluster connections on port 29015
+2014-06-02T11:11:11.245925596 0.166935s info: Listening for client driver connections on port 28015
+2014-06-02T11:11:11.246050821 0.167060s info: Listening for administrative HTTP connections on port 8080
+2014-06-02T11:11:11.246053265 0.167062s info: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2014-06-02T11:11:11.246069608 0.167079s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-06-02T11:11:11.246073589 0.167083s info: by running rethinkdb with the `--bind all` command line option.
+2014-06-02T11:11:11.246077640 0.167086s info: Server ready
+2014-06-02T11:12:18.698481890 67.619491s info: Applying data {"databases":{"ff5d8f46-e4b5-4cbd-b4e8-be7656f7b068":null}}
+2014-06-02T11:12:24.749975449 73.670984s info: Server got SIGINT from pid 0, uid 0; shutting down...
+2014-06-02T11:12:24.750135176 73.671144s info: Shutting down client connections...
+2014-06-02T11:12:24.750392960 73.671402s info: All client connections closed.
+2014-06-02T11:12:24.750400783 73.671410s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-06-02T11:12:24.750404833 73.671414s info: Storage engine shut down.
+2014-06-02T11:12:25.761485642 0.053664s info: Running rethinkdb 1.12.5-0ubuntu1~precise (GCC 4.6.3)...
+2014-06-02T11:12:25.763525007 0.055704s info: Running on Linux 3.8.0-31-generic x86_64
+2014-06-02T11:12:25.763629141 0.055808s info: Using cache size of 100 MB
+2014-06-02T11:12:25.763806258 0.055985s warn: Cache size does not leave much memory for server and query overhead (available memory: 594 MB).
+2014-06-02T11:12:25.763854658 0.056033s warn: Cache size is very low and may impact performance.
+2014-06-02T11:12:25.763901382 0.056080s info: Loading data from directory /home/anand/git/learning/python/rethinkdb_data
+2014-06-02T11:12:25.872303994 0.164483s info: Listening for intracluster connections on port 29015
+2014-06-02T11:12:25.873543607 0.165722s info: Listening for client driver connections on port 28015
+2014-06-02T11:12:25.873761512 0.165940s info: Listening for administrative HTTP connections on port 8080
+2014-06-02T11:12:25.873768496 0.165947s info: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2014-06-02T11:12:25.873771080 0.165950s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-06-02T11:12:25.873777016 0.165955s info: by running rethinkdb with the `--bind all` command line option.
+2014-06-02T11:12:25.873807677 0.165986s info: Server ready
+2014-06-02T11:13:51.222449779 85.514628s info: Server got SIGINT from pid 0, uid 0; shutting down...
+2014-06-02T11:13:51.222701906 85.514880s info: Shutting down client connections...
+2014-06-02T11:13:51.222851646 85.515030s info: All client connections closed.
+2014-06-02T11:13:51.222896554 85.515075s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-06-02T11:13:51.224520503 85.516699s info: Storage engine shut down.
