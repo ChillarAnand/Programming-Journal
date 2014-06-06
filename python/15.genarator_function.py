@@ -7,7 +7,10 @@ def isprime(n):
     else:
         return True
 
+print [i for i in range(1, 20) if isprime(i)]
+        
 
+"""
 def primes(n = 1):
     while(True):
         if isprime(n):
@@ -19,3 +22,4 @@ for n in primes():
     if n > 50:
         break;
     print(n)
+"""
