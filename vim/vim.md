@@ -1,5 +1,10 @@
 ### Reselect previous visual block
+    gv
+    
 
-    gv  
 
+### Restart vim without closing it - vim source
+    :source ~/.vimrc
+    
+    
 
