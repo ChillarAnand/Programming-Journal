@@ -1,4 +1,4 @@
-## Learn Git!!! ##
+## Git!!! ##
 
 ### Update git on ubuntu from command line ###
     sudo apt-get install python-software-properties 
@@ -7,41 +7,43 @@
     sudo apt-get install git  
 
 
-### git User configuration ##
+### User configuration ##
     git config --global user.name "username"
     git config --global user.email "your.email@gmail.com" 
  
 
-### git - color highlighting for console 
+### Color highlighting for console 
     git config --global color.ui true
     git config --global color.status auto
     git config --global color.branch auto 
 
 
-### set vim as default editor for Git (Linux)
+### Set vim as default editor for Git (Linux)
     git config --global core.editor vim 
 
 
-### query git settings of local repo
+### Query git settings of local repo
     git config --list 
 
 
-### push changes to git
-    push add origin
+### Push changes to git
+    git push add origin
 
 
-### find the size of git repository
+### Find the size of git repository
     git bundle create tmp.bundle --all
     du -sh tmp.bundle
-### to count hooks, stashes, config, rerere cache, backups 
+
+### To count hooks, stashes, config, rerere cache, backups 
     git gc
     du -sh .git/
 
 
-### store git credentials
+### Store git credentials
     git config credential.helper store
     git push http://example.com/repo.git
 
 
-### where is git installed
+### Where is git installed
     which git
+
