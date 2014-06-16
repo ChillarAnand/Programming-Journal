@@ -10,4 +10,8 @@ print loader.get_template('home.html')
 
 
 ### Find django version 
-     python -c "import django; print(django.get_version())"    
+     python -c "import django; print(django.get_version())"   
+     
+     python
+     import django
+     django.VERSION
