@@ -15,3 +15,21 @@ print loader.get_template('home.html')
      python
      import django
      django.VERSION
+     
+### Super user
+     ./manage.py changepassword admin
+     
+     ./manage.py createsuperuser
+     
+     
+     from django.contrib.auth.models import User
+     user = User.objects.get(username='normaluser')
+     user.is_superuser = True
+     user.save()
+    
+     python manage.py shell
+     from django.contrib.auth.models import User
+     User.objects.filter(is_superuser=True)
+     usr = User.objects.get(username='your username')
+     usr.set_password('raw password')
+     usr.save()
