@@ -4,6 +4,10 @@ from django.template import loader
 print loader.get_template('home.html')
 
 
-### install django alternate method
+### Install django alternate method
     
     pip install https://www.djangoproject.com/download/1.0.4/tarball/    
+
+
+### Find django version 
+     python -c "import django; print(django.get_version())"    
