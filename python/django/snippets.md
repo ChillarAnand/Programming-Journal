@@ -33,3 +33,6 @@ print loader.get_template('home.html')
      usr = User.objects.get(username='your username')
      usr.set_password('raw password')
      usr.save()
+     
+### Exit virtualenv
+    deactivate
