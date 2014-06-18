@@ -36,3 +36,16 @@ print loader.get_template('home.html')
      
 ### Exit virtualenv
     deactivate
+
+
+### South 
+    pip install south
+    
+    ./manage.py schemamigration my-app --initial
+    ./manage.py migrate my-app
+    
+    ./manage.py schemamigration my-app --auto
+    ./manage.py migrate my-app
+    
+    ./manage.py migrate my-app --fake
+    
