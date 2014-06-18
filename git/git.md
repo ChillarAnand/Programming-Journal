@@ -47,3 +47,7 @@
 ### Where is git installed
     which git
 
+### Commit only one file 
+    git commit -m 'my message' path/to/file.ext
+    
+    
