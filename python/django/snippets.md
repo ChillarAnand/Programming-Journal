@@ -49,3 +49,7 @@ print loader.get_template('home.html')
     
     ./manage.py migrate my-app --fake
     
+### Check for any errors in the construction of your models
+    ./manage.py validate
+    
+    
