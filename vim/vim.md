@@ -15,4 +15,17 @@
     yss]
     VS<b>
     
+#### NERDTree Plugin
+File Node Mappings
+    o
+    go
+    i
+    gi
+    s
+    gs
+    t
+    T
+    
+    
+    
 
