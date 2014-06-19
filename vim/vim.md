@@ -16,7 +16,7 @@
     VS<b>
     
 #### NERDTree Plugin
-File Node Mappings
+    File Node Mappings
     o 
     go 
     i 
