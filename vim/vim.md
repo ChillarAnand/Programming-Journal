@@ -26,6 +26,8 @@
     t 
     T 
     
+#### Insert -> Normal + Run command -> Insert
+    CTRL +  o command
     
     
 
