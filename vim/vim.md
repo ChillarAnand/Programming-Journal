@@ -29,5 +29,5 @@
 #### Insert -> Normal + Run command -> Insert
     CTRL +  o command
     
-    
-
+#### Auto open nerdtree with vim
+    autocmd VimEnter * NERDTree
