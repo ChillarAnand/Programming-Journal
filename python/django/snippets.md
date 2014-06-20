@@ -52,4 +52,9 @@ print loader.get_template('home.html')
 ### Check for any errors in the construction of your models
     ./manage.py validate
     
+#### Reset south migrations - delete ghost migrations
+    rm <app-dir>/migrations/*
+    python manage.py schemamigration <app-name> --initial
+    python manage.py migrate <app-name> 0001 --fake  --delete-ghost-migrations
+    
     
