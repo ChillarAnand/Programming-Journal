@@ -1,3 +1,4 @@
 #### Important django imports
 
-reverse             ->  django.core.url.urlresolvers.reverse
+reverse -> from django.core.url.urlresolvers import reverse
+User -> from django.contrib.auth.models import User
