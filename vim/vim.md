@@ -16,15 +16,18 @@
     VS<b>
     
 #### NERDTree Plugin
-    File Node Mappings
-    o 
-    go 
-    i 
-    gi 
-    s 
-    gs 
-    t 
-    T 
+    #File Node Mappings
+    o   - open a file/directory 
+    go  - preview a file
+    i   - split file 
+    gi  - split file preview
+    s   - vertical split file
+    gs  - vertical split file preview
+    t   - open file in new tab
+    T   - open file preview
+    
+    #Ignore files in nerdtree
+    let NERDTreeIgnore = ['\.pyc']
     
 #### Insert -> Normal + Run command -> Insert
     CTRL +  o command
