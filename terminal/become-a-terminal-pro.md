@@ -9,4 +9,6 @@ awk is pattern scanning and processing language
     cat test.txt | awk '{print NR, NF, $0 }'
     ls -l | awk '{ if ( NF >= 9  ) { print $9  }  }'
 
-
+#### Search for a string in all files of a directory recursively
+    grep -rl "django" /path/to/dir/
+    
