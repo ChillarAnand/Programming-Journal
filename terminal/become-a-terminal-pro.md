@@ -12,3 +12,6 @@ awk is pattern scanning and processing language
 #### Search for a string in all files of a directory recursively
     grep -rl "django" /path/to/dir/
     
+#### Grep non mathcing lines
+    grep -v 'django'   
+    
