@@ -4,6 +4,6 @@
       reverse -> from django.core.urlresolvers import reverse   
       send_mail -> from django.core.mail import send_mail
       User -> from django.contrib.auth.models import User   
-      View ->
+      View -> from django.views.generic.base import View
       loader -> from django.template import loader
       
