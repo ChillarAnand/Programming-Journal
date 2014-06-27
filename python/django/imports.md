@@ -1,5 +1,5 @@
 #### Important django imports
-
+      admin -> from django.contrib import admin 
       loader -> from django.template import loader
       ListView -> from django.views.generic import ListView   
       patterns -> from django.conf.urls import patterns
