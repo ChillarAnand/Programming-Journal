@@ -57,4 +57,10 @@ print loader.get_template('home.html')
     python manage.py schemamigration <app-name> --initial
     python manage.py migrate <app-name> 0001 --fake  --delete-ghost-migrations
     
+#### ipython notebook for django
+##### Install
+	pip install django-shell-ipydb
+#### Run
+	./manage.py shell_ipynb
+    
     
