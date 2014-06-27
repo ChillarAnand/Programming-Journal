@@ -1,26 +1,25 @@
-### Check if django is able to locate and load template
+#### Check if django is able to locate and load template
+	from django.template import loader   
+	print loader.get_template('home.html') 
 
-from django.template import loader  
-print loader.get_template('home.html')
 
+#### Install django from tar ball 
 
-### Install django alternate method
-    
     pip install https://www.djangoproject.com/download/1.0.4/tarball/    
 
 
-### Find django version 
+#### Find django version 
      python -c "import django; print(django.get_version())"   
      
      python
      import django
      django.VERSION
      
+     
 ### Super user
      ./manage.py changepassword admin
      
      ./manage.py createsuperuser
-     
      
      from django.contrib.auth.models import User
      user = User.objects.get(username='normaluser')
@@ -35,10 +34,10 @@ print loader.get_template('home.html')
      usr.save()
      
 ### Exit virtualenv
-    deactivate
+ #   deactivate
 
 
-### South 
+#### South 
     pip install south
     
     ./manage.py schemamigration my-app --initial
@@ -48,19 +47,30 @@ print loader.get_template('home.html')
     ./manage.py migrate my-app
     
     ./manage.py migrate my-app --fake
-    
-### Check for any errors in the construction of your models
-    ./manage.py validate
-    
+
+
 #### Reset south migrations - delete ghost migrations
     rm <app-dir>/migrations/*
     python manage.py schemamigration <app-name> --initial
     python manage.py migrate <app-name> 0001 --fake  --delete-ghost-migrations
     
+    
+#### Check for any errors in the construction of your models
+    ./manage.py validate
+    
+
 #### ipython notebook for django
 ##### Install
 	pip install django-shell-ipydb
 #### Run
 	./manage.py shell_ipynb
+	
+#### Run django shell with ipython or bpython or normal shell 
+	./manage.py shell --interface ipython
+	./manage.py shell -i ipython
+	./manage.py shell -i bpython
+	./manage.py shell --plain
+	
+	
     
     
