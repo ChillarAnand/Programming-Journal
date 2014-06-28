@@ -4,6 +4,7 @@
       ListView -> from django.views.generic import ListView   
       patterns -> from django.conf.urls import patterns
       render -> from django.shortcuts import render
+      render_to_response -> from django.shortcuts import render_to_response 
       reverse -> from django.core.urlresolvers import reverse   
       send_mail -> from django.core.mail import send_mail
       url -> from django.conf.urls import url
