@@ -2,6 +2,7 @@
       admin -> from django.contrib import admin 
       loader -> from django.template import loader
       ListView -> from django.views.generic import ListView   
+      ModelForm -> from django.forms import ModelForm
       patterns -> from django.conf.urls import patterns
       render -> from django.shortcuts import render
       render_to_response -> from django.shortcuts import render_to_response 
