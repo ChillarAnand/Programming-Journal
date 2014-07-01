@@ -17,7 +17,7 @@
      
      
 ### Super user
-     ./manage.py changepassword admin
+ #    ./manage.py changepassword admin
      
      ./manage.py createsuperuser
      
@@ -33,7 +33,7 @@
      usr.set_password('raw password')
      usr.save()
      
-### Exit virtualenv
+#### Exit virtualenv
  #   deactivate
 
 
@@ -70,6 +70,12 @@
 	./manage.py shell -i ipython
 	./manage.py shell -i bpython
 	./manage.py shell --plain
+	
+#### Install django debug toolbar for better debugging.
+	pip install django-debug-toolbar
+	
+	
+	
 	
 	
     
