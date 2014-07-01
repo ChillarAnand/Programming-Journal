@@ -34,7 +34,7 @@
      usr.save()
      
 #### Exit virtualenv
- #   deactivate
+    deactivate
 
 
 #### South 
@@ -74,6 +74,12 @@
 #### Install django debug toolbar for better debugging.
 	pip install django-debug-toolbar
 	
+#### Installed celery & django celery
+	pip install Celery
+	pip install django-celery
+	
+	celery helpcelery -A my_app worker -l info
+	celery status
 	
 	
 	
