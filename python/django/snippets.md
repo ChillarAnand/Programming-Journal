@@ -16,8 +16,8 @@
      django.VERSION
      
      
-### Super user
- #    ./manage.py changepassword admin
+#### Super user
+     ./manage.py changepassword admin
      
      ./manage.py createsuperuser
      
