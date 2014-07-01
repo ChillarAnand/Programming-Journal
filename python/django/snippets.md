@@ -75,10 +75,15 @@
 	pip install django-debug-toolbar
 	
 #### Installed celery & django celery
-	pip install Celery
-	pip install django-celery
+	pip install Celery django-celery
 	
-	celery helpcelery -A my_app worker -l info
+	For Ubuntu install rabbitmq for celery to work 
+	apt-get install rabbitmq-server 
+	
+	./manage.py celeryd -l info 
+	
+	celery help
+	celery -A my_app worker -l info
 	celery status
 	
 	
