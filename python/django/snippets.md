@@ -85,6 +85,10 @@
 	celery help
 	celery -A my_app worker -l info
 	celery status
+
+	celery worker -A tasks &  # start celery in background
+	ps auxww | grep 'celery worker' | awk '{print $2}' | xargs kill -9   #kill celery tasks
+
 	
 	
 	
