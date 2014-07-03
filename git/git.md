@@ -1,6 +1,6 @@
 ## Git!!! ##
 
-### Update git on ubuntu from command line ###
+#### Update git on ubuntu from command line ###
     sudo apt-get install python-software-properties 
     sudo add-apt-repository ppa:git-core/ppa 
     sudo apt-get update 
@@ -50,4 +50,9 @@
 ### Commit only one file 
     git commit -m 'my message' path/to/file.ext
     
+#### Beautiful git logs
+    [alias]
+    lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+    lg = !"git lg1"
     
