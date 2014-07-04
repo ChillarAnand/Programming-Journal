@@ -88,6 +88,35 @@
 
 	celery worker -A tasks &  # start celery in background
 	ps auxww | grep 'celery worker' | awk '{print $2}' | xargs kill -9   #kill celery tasks
+	
+	Clelry tasks
+
+	./manage.py celeryd -BE -l info 
+	(run the client worker to execute tasks)
+	./manage.py celeryev          
+	(command line task monitoring tool)
+	./manage.py celerycam
+	(saves current state of events to the database)
+
+
+	result = tasks.add.apply_async(args=[1,2])
+	result.ready()
+	result.state
+	result.successful()
+	result.result
+	result.task_id
+	result.task_name
+
+
+	from datetime import datetime
+	result = tasks.add.apply_async(args=[1,2], eta=datetime(2014, 06, 12, 0, 0))
+	(run task at specific time)
+	result = tasks.add.apply_async(args=[1,2], countdown=10)
+	(run task in 10 seconds using countdown argument)
+
+
+	result.wait()
+
 
 	
 	
