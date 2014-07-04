@@ -115,7 +115,11 @@
 	(run task in 10 seconds using countdown argument)
 
 
-	result.wait()
+	result.wait() 
+	
+	celery -A apps.project.tasks worker -l info 
+	(START WORKER)
+	
 
 
 	
