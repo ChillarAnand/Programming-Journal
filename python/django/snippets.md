@@ -120,6 +120,10 @@
 	celery -A apps.project.tasks worker -l info 
 	(START WORKER)
 	
+	# celery kill all tasks
+	celery purge
+	
+	
 
 
 	
