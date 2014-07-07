@@ -12,4 +12,5 @@
       url -> from django.conf.urls import url
       User -> from django.contrib.auth.models import User   
       View -> from django.views.generic.base import View
+      timezone -> from django.utils import timezone 
 
