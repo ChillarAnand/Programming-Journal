@@ -26,6 +26,8 @@
     t   - open file in new tab
     T   - open file preview
     
+    u - go up one directory from root 
+    
     #Ignore files in nerdtree
     let NERDTreeIgnore = ['\.pyc']
     
