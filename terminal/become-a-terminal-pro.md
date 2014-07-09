@@ -1,6 +1,6 @@
-## Become a Terminal Pro ##
+### Become a Terminal Pro ##
 
-### awk - programming language ###
+#### awk - programming language ###
 awk is pattern scanning and processing language
 
     ls -l | awk '{ print $5  }'
@@ -15,3 +15,7 @@ awk is pattern scanning and processing language
 #### Grep non mathcing lines
     grep -v 'django'   
     
+#### tmux 
+    ctrl + b % - split vertically
+    ctrl + b " - split window horizontally
+    ctrl + b arrow keys - switch panes
