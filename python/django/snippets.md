@@ -124,7 +124,7 @@
 	celery purge
 	
 	
-
+#### Always use render instead of render_to_response
 
 	
 	
