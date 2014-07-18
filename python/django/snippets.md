@@ -126,6 +126,9 @@
 	
 #### Always use render instead of render_to_response
 
+#### All URL Patterns 
+    from django.core.urlresolvers import get_resolver
+    get_resolver(None).reverse_dict.keys()
 	
 	
 	
