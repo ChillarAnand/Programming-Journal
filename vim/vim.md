@@ -1,12 +1,12 @@
-### Reselect previous visual block
+#### Reselect previous visual block
     gv
     
 
-### Restart vim without closing it - vim source
+#### Restart vim without closing it - vim source
     :source ~/.vimrc
 
 
-### Surround Plugin
+#### Surround Plugin
     cs"'
     cs'<p>
     cst"
@@ -36,3 +36,9 @@
     
 #### Auto open nerdtree with vim
     autocmd VimEnter * NERDTree
+
+#### Comment/Uncomment a block of code
+    [Ctrl] + v, select lines -> I#[Esc]
+    V, select lines -> :s/^/#
+
+    [Ctrl] + v, select lines -> x 
