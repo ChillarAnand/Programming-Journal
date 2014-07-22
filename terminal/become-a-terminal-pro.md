@@ -35,3 +35,9 @@ awk is pattern scanning and processing language
     top -> 1 - show cpu core usage
     cat /proc/cpuinfo | grep processor | wc -l #show no. of cpu 
     lscpu  #show cpu architecture 
+    lspci #list all pci connections
+    lspci | grep VGA #show graphic card details 
+
+#### Find size of a directory
+    du -hs #show human readable summary of disk usage
+
