@@ -29,3 +29,9 @@ awk is pattern scanning and processing language
     shift + F2 - Split the screen horizontally
     shift + F3 - Move to previous split screen
     shift + F4 - Move to next split screen
+
+#### Cores - CPU
+    nproc - display number of cores in a CPU
+    top -> 1 - show cpu core usage
+    cat /proc/cpuinfo | grep processor | wc -l #show no. of cpu 
+    lscpu  #show cpu architecture 
