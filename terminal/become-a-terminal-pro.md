@@ -30,14 +30,15 @@ awk is pattern scanning and processing language
     shift + F3 - Move to previous split screen
     shift + F4 - Move to next split screen
 
-#### Cores - CPU
+#### Cores, Grpahics - CPU
     nproc - display number of cores in a CPU
     top -> 1 - show cpu core usage
     cat /proc/cpuinfo | grep processor | wc -l #show no. of cpu 
     lscpu  #show cpu architecture 
     lspci #list all pci connections
     lspci | grep VGA #show graphic card details 
+    lspci -v -s 00:02.0 #show graphic card details
 
 #### Find size of a directory
     du -hs #show human readable summary of disk usage
-
+    
