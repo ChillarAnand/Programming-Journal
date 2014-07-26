@@ -7,4 +7,9 @@ compile:
     To translate a programm written in a high level language into a low level language all at once in preparation for later execution.
 
 
+#### Chapter 2: 
 
+
+#### Chapter 3: Functions
+
+t

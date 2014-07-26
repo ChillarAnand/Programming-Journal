@@ -42,3 +42,6 @@ awk is pattern scanning and processing language
 #### Find size of a directory
     du -hs #show human readable summary of disk usage
     
+#### Find details of Linux OS
+    lsb_release -a
+
