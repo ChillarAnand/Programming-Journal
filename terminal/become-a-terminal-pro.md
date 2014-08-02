@@ -45,3 +45,8 @@ awk is pattern scanning and processing language
 #### Find details of Linux OS
     lsb_release -a
 
+#### Maximum RAM capacity & no of slots
+    sudo dmidecode -t 16
+    sudo dmidecode -t memory
+    sudo lshw -C memory
+
